@@ -1,0 +1,113 @@
+#form_section {
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; /* Center the outer border horizontally */
+    align-items: center;
+}
+
+.outer-border {
+    padding: 20px;
+    border: 2px solid #f8f0f0;
+    background-color: #fff;
+    height: auto;
+    width: 600px;
+    display: flex;
+    justify-content: center; /* Center the inner border horizontally */
+    box-shadow: 5px 10px #888888;
+}
+
+.inner-border {
+    padding: 20px;
+    border: 2px solid #d4dcd4;
+    width: 100%; /* Ensure the inner border takes up the full width of the outer border */
+    align-items: center;
+}
+
+.inner-border h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.inner-border input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-container button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-login {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-register {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button-login:hover {
+    background-color: #45a049;
+}
+
+.button-register:hover {
+    background-color: #007bb5;
+}
+
+.colorful-line {
+    height: 10px;
+    background: linear-gradient(to right, rgb(227, 93, 93), rgb(180, 150, 93), rgb(198, 198, 40), rgb(144, 193, 144), rgb(125, 125, 219), rgb(85, 13, 136), rgb(152, 15, 152));
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#volunteer_login_logo{
+    width: 200px;
+    text-align: center;
+    margin : 0 auto;
+    display:flex;
+}
+ 
+#volunteer_login_logo_header
+{
+    color: rgb(62, 60, 57);
+    font-size: 25px;
+    margin-left: 190px;
+}
+
+.home_button {
+    display: flex;
+    align-items: center; /* Center items vertically within the button */
+    justify-content: center; /* Center items horizontally within the button */
+    text-align: center; /* Center text inside the button */
+    margin: 20px; /* Optional: Add margin if needed */
+    background-color: #d1ba62;
+    width: 70%;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    padding: 10px; /* Optional: Add padding for spacing */
+    margin-left: 170px;
+}
+
+.home_button img {
+    margin-left: 10px; /* Optional: Space between text and image */
+    width: 40px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+}
